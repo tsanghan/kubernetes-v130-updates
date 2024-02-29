@@ -153,3 +153,6 @@ k --context kind-v129 auth can-i delete po
 ```
 k --context kind-v129 auth can-i delete deploy
 ```
+
+-Ref: https://github.com/kubernetes/kubernetes/blob/master/pkg/registry/rbac/escalation_check.go#L38
+-Ref: https://github.com/kubernetes/kubernetes/blob/a67973a45c4b48585e3331889eca09425caca7c2/staging/src/k8s.io/apiserver/pkg/authentication/user/user.go#L71
