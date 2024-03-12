@@ -47,7 +47,7 @@ k -n test create deploy iron-goddess-of-mercy --image tsanghan/kopi-teh:v1 --rep
 ```
 12. Delete `iron-goddess-of-mercy` deployment in `test` namespace in `kind-v129-alpha` context.
 ```
-!!:gs/apply/delete
+^apply^delete
 ```
 13. Test in `test` namespace: Create `iron-goddess-of-mercy` with `6` `replicas` in `kind-v129-alpha` context. What is the result?
 ```
@@ -61,7 +61,7 @@ k -n prod create deploy iron-goddess-of-mercy --image tsanghan/kopi-teh:v1 --rep
 ```
 15. Delete `iron-goddess-of-mercy` deployment in `prod` namespace in `kind-v129-alpha` context.
 ```
-!!:gs/apply/delete
+^apply^delete
 ```
 16. Test in `prod` namespace: Create `iron-goddess-of-mercy` with `6` `replicas` in `kind-v129-alpha` context. What is the result?
 ```
