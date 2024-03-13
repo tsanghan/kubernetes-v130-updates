@@ -1,4 +1,4 @@
-1) You will need 3 Kubernetes clusters for todays session.
+1) You will need 3 Kubernetes clusters for today's session.
 ```
 cd ~/Project/kind
 source bashrc
