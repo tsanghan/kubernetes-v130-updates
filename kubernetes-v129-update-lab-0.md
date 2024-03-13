@@ -1,5 +1,7 @@
 1) You will need 3 Kubernetes clusters for todays session.
 ```
+cd ~/Project/kind
+source bashrc
 kind create cluster --name v128 --config kind-v1.28.yaml && \
 kind create cluster --name v129 --config kind.yaml && \
 kind create cluster --name v129-alpha --config kind-alpha.yaml && \
