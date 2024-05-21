@@ -35,5 +35,13 @@ k --context kind-v130-alpha -n kube-system exec -it \
 
 6. Look for `lungo` `nftables Service Chain` in `nft-table-kube-proxy.txt` file.
 ```
-$ grep lungo nft-table-kube-proxy.txt | grep -A1 "chain service-"
+grep lungo nft-table-kube-proxy.txt | grep -A1 "chain service-"
+```
+
+7. Delete `lungo` `deployment` & `service` on `kind-v130` & `kind-v130-alpha` clusters
+```
+for cluster in v130 v130-alpha; do
+  k --context kind-"$cluster" delete deploy lungo
+  k --context kind-"$cluster" delete svc lungo
+done
 ```

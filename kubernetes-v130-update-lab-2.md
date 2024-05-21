@@ -5,6 +5,8 @@ metrics-server.sh
 ```
 
 2. Run and expose php-apache server using manifest show below
+php-apache.yaml
+===============
 ```
 apiVersion: apps/v1
 kind: Deployment
@@ -70,3 +72,8 @@ In first SSH terminal/Terminal panel, stop the `load-generator` pod.
 Ctrl-C
 ```
 In second SSH terminal/Terminal panel, watch till deployment autoscale back to 1 pod.
+
+6. Delete php-apache pod and service
+```
+k delete -f php-apache.yaml
+```

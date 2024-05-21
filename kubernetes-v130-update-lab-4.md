@@ -1,6 +1,6 @@
-1. Look for `admission` related `Resources` in `kind-v130` context.
+1. Look for `admission` related `Resources` in `kind-v129` context.
 ```
-k --context kind-v130 api-resources | grep admission
+k --context kind-v129 api-resources | grep admission
 ```
 2. Look for `admission` related `Resources` in `kind-v130` context.
 ```

@@ -1,6 +1,6 @@
 1. Study the 2 pod declarations below.
 
-DDO NOT USE `Unconfied` in your Pod. This is just to demonstrate the change in API, not a demo on AppArmor.
+DO NOT USE `Unconfied` in your Pod. This is just to demonstrate the change in API, not a demo on AppArmor.
 
 pod-annotation.yaml
 ===================
