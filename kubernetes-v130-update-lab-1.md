@@ -72,7 +72,7 @@ Was it sucessful? Did the Pod starts? Was there any Error?
 
 8. Delete the Pod on kind-v130 cluster.
 ```
-k --context kind-v130 delete -f pod-annotation.yaml --now
+k --context kind-v130 delete -f pod-securitycontext.yaml --now
 ```
 Was the Pod deleted?
 
