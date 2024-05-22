@@ -38,7 +38,7 @@ k --context kind-v130 get clusterrole cluster-admin -oyaml
 ```
 k --context kind-v130 get clusterrolebinding cluster-admin -oyaml
 ```
-11. Get live `clusterrolebinding` resource with name `kubeadm:cluster-admin` in `kind-v130` context.
+11. Get live `clusterrolebinding` resource with name `kubeadm:cluster-admins` in `kind-v130` context.
 ```
 k --context kind-v130 get clusterrolebinding kubeadm:cluster-admins -oyaml
 ```
