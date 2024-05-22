@@ -25,7 +25,7 @@ k --context kind-v130 -n kube-system exec -it \
 grep -A4 "Chain.*SVC.*$(grep lungo iptables-nat.txt | grep SVC | awk '{print $1}' | awk -F- '{print $3}')" iptables-nat.txt
 ```
 
-5. We will now extract `nftables` equivalent rules into `nft-table-kube-proxy.txt` file. What `nftables` `table` will be the equivalent rules resite in?
+5. We will now extract `nftables` equivalent rules into `nft-table-kube-proxy.txt` file. What `nftables` `table` will be the equivalent rules reside in?
 ```
 TABLE_NAME=<replace me>
 k --context kind-v130-alpha -n kube-system exec -it \
