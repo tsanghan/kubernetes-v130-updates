@@ -26,7 +26,7 @@ k --context kind-v128 get clusterrolebinding cluster-admin -oyaml
 ```
 k --context kind-v130 get clusterrole | grep cluster-admin
 ```
-8. List `clusterrole` with name `cluster-admin` in `kind-v130` context.
+8. List `clusterrolebinding` with name `cluster-admin` in `kind-v130` context.
 ```
 k --context kind-v130 get clusterrolebinding | grep cluster-admin
 ```
